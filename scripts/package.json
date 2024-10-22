@@ -1,6 +1,6 @@
 {
 	"name": "@terrestris/w3c-schemas",
-	"version": "1.4.1-SNAPSHOT",
+	"version": "2.0.0",
 	"description": "Jsonix XML-JSON mappings for W3C Schemas.",
 	"keywords": [
 		"json",
@@ -55,7 +55,7 @@
 	},
 	"scripts": {
 		"test": "nodeunit tests/tests.js",
-		"release": "np --no-yarn && git push https://github.com/terrestris/w3c-schemas.git master --tags"
+		"release": "np --no-yarn"
 	},
 	"dependencies": {
 		"@mitre/jsonix": "3.0.7"
