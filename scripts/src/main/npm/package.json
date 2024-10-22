@@ -25,8 +25,8 @@
 		"ws-addr",
 		"ws-addressing",
 		"ws addressing",
-                "wsdl",
-                "soap",
+		"wsdl",
+		"soap",
 		"xhtml",
 		"xlink",
 		"xinclude",
@@ -34,14 +34,13 @@
 		"xml schema",
 		"xsd"
 	],
-	"homepage": "https://github.com/highsource/w3c-schemas",
+	"homepage": "https://github.com/terrestris/w3c-schemas",
 	"bugs" : {
-		"url" : "http://github.com/highsource/w3c-schemas/issues",
-		"email" : "w3c-schemas-users@lists.sourceforge.net"
+		"url" : "http://github.com/terrestris/w3c-schemas/issues"
 	},
 	"licenses" : [ {
 		"type" : "BSD-2-Clause",
-		"url" : "http://github.com/highsource/w3c-schemas/raw/master/LICENSE"
+		"url" : "http://github.com/terrestris/w3c-schemas/raw/master/LICENSE"
 	} ],
 	"author" : {
 		"name" : "Alexey Valikov",
@@ -50,13 +49,13 @@
 	"main": "w3c-schemas.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/highsource/w3c-schemas"
+		"url": "https://github.com/terrestris/w3c-schemas"
 	},
 	"scripts" : {
 		"test" : "nodeunit tests/tests.js"
 	},
 	"dependencies": {
-		"jsonix": ">=${jsonix.version}"
+		"@mitre/jsonix": "3.0.7"
 	},
 	"devDependencies" : {
 		"nodeunit" : "0.x.x",
